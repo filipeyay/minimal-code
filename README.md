@@ -2,6 +2,8 @@
 
 A Minimal Visual Studio Code Theme inspired by [Koda](https://github.com/oskarnurm/koda.nvim) and [Monochrome](https://github.com/anotherglitchinthematrix/monochrome.git).
 
+For now there is a initial support for Python, HTML, CSS, JavaScript, TypeScript.
+
 ### IMPORTANT
 
 Put this on your settings.json `"editor.bracketPairColorization.enabled": false,`
