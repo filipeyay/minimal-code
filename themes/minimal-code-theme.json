@@ -10,16 +10,23 @@
     "activityBar.border": "#151515",
     "activityBar.foreground": "#ffffff",
     "editorGroupHeader.tabsBackground": "#101010",
-    "tab.activeBackground": "#101010",
-    "tab.activeForeground": "#ffffff",
     "tab.inactiveBackground": "#101010",
+    "tab.activeBackground": "#101010",
+    "tab.activeBorderTop": "#86cd82",
+    "tab.activeForeground": "#ffffff",
+    "tab.activeBorder": "#181818",
     "tab.border": "#151515",
     "statusBar.background": "#101010",
     "statusBar.foreground": "#777777",
     "statusBar.debuggingBackground": "#101010",
     "editorLineNumber.foreground": "#474747",
     "editorLineNumber.activeForeground": "#ffffff",
-    "editorIndentGuide.background": "#222222"
+    "editorIndentGuide.background": "#222222",
+    "titleBar.activeBackground": "#101010",
+    "titleBar.activeForeground": "#ffffff",
+    "titleBar.inactiveBackground": "#101010",
+    "titleBar.inactiveForeground": "#777777",
+    "titleBar.border": "#151515"
   },
   "tokenColors": [
     {
