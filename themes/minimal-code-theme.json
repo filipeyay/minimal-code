@@ -1,0 +1,96 @@
+{
+  "name": "Minimal Code Dark",
+  "type": "dark",
+  "colors": {
+    "editor.background": "#101010",
+    "editor.foreground": "#b0b0b0",
+    "sideBar.background": "#101010",
+    "sideBar.border": "#272727",
+    "editorLineNumber.foreground": "#474747",
+    "editorLineNumber.activeForeground": "#ffffff",
+    "editorIndentGuide.background": "#272727",
+    "editorIndentGuide.activeBackground": "#474747",
+    "statusBar.background": "#101010",
+    "statusBar.border": "#272727",
+    "statusBar.foreground": "#777777",
+    "tab.activeBackground": "#101010",
+    "tab.activeForeground": "#ffffff",
+    "tab.inactiveBackground": "#101010",
+    "tab.border": "#272727",
+    "editorGroupHeader.tabsBackground": "#101010",
+    "activityBar.background": "#101010",
+    "activityBar.border": "#272727",
+    "activityBar.foreground": "#ffffff",
+    "editorWidget.background": "#101010",
+    "editorWidget.border": "#272727",
+    "input.background": "#272727",
+    "list.activeSelectionBackground": "#272727",
+    "list.hoverBackground": "#272727"
+  },
+  "tokenColors": [
+    {
+      "name": "Keywords e Controle",
+      "scope": [
+        "keyword",
+        "storage.type",
+        "storage.modifier",
+        "keyword.control",
+        "keyword.operator.logical"
+      ],
+      "settings": {
+        "foreground": "#777777"
+      }
+    },
+    {
+      "name": "Funções do Usuário",
+      "scope": [
+        "entity.name.function",
+        "variable.function",
+        "meta.function-call.generic"
+      ],
+      "settings": {
+        "foreground": "#ffffff",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Built-ins e Tipos (Verde Koda)",
+      "scope": [
+        "support.function.builtin",
+        "support.type.python",
+        "support.class.builtin"
+      ],
+      "settings": {
+        "foreground": "#86cd82"
+      }
+    },
+    {
+      "name": "Strings",
+      "scope": "string",
+      "settings": {
+        "foreground": "#ffffff"
+      }
+    },
+    {
+      "name": "Números e Constantes",
+      "scope": ["constant.numeric", "constant.language"],
+      "settings": {
+        "foreground": "#d9ba73"
+      }
+    },
+    {
+      "name": "Comentários",
+      "scope": "comment",
+      "settings": {
+        "foreground": "#50585d"
+      }
+    },
+    {
+      "name": "Variáveis",
+      "scope": "variable",
+      "settings": {
+        "foreground": "#b0b0b0"
+      }
+    }
+  ]
+}
