@@ -1,2 +1,2 @@
-# minimal-code
-Minimal VsCode Theme.
+# Minimal Code Theme
+A Minimal VsCode Theme.
