@@ -1,0 +1,104 @@
+{
+  "name": "Minimal Code Light",
+  "type": "light",
+  "colors": {
+    "editor.background": "#fafafa",
+    "editor.foreground": "#24292e",
+    "sideBar.background": "#fafafa",
+    "sideBar.border": "#e5e5e5",
+    "activityBar.background": "#fafafa",
+    "activityBar.border": "#e5e5e5",
+    "activityBar.foreground": "#000000",
+    "editorGroupHeader.tabsBackground": "#fafafa",
+    "tab.inactiveBackground": "#fafafa",
+    "tab.activeBackground": "#fafafa",
+    "tab.activeBorderTop": "#22863a",
+    "tab.activeForeground": "#000000",
+    "tab.activeBorder": "#e5e5e5",
+    "tab.border": "#e5e5e5",
+    "statusBar.background": "#fafafa",
+    "statusBar.foreground": "#6a737d",
+    "statusBar.debuggingBackground": "#fafafa",
+    "editorLineNumber.foreground": "#cccccc",
+    "editorLineNumber.activeForeground": "#000000",
+    "editorIndentGuide.background": "#eaeaea",
+    "titleBar.activeBackground": "#fafafa",
+    "titleBar.activeForeground": "#000000",
+    "titleBar.inactiveBackground": "#fafafa",
+    "titleBar.inactiveForeground": "#6a737d",
+    "titleBar.border": "#e5e5e5"
+  },
+  "tokenColors": [
+    {
+      "name": "1. Logic and Proper Properties (Gray)",
+      "scope": [
+        "keyword",
+        "storage",
+        "punctuation.separator",
+        "punctuation.terminator",
+        "support.type.property-name.css",
+        "meta.property-name.css"
+      ],
+      "settings": { "foreground": "#6a737d" }
+    },
+    {
+      "name": "2. Functions and Strings (Black Bold)",
+      "scope": [
+        "entity.name.function",
+        "variable.function",
+        "meta.function-call",
+        "string",
+        "entity.other.attribute-name.class",
+        "entity.other.attribute-name.id",
+        "entity.other.attribute-name.pseudo-class"
+      ],
+      "settings": { "foreground": "#000000", "fontStyle": "bold" }
+    },
+    {
+      "name": "3. Numbers and Gold",
+      "scope": [
+        "constant.numeric",
+        "constant.language",
+        "support.constant.property-value"
+      ],
+      "settings": { "foreground": "#b07d00" }
+    },
+    {
+      "name": "4. Comments",
+      "scope": "comment",
+      "settings": { "foreground": "#959da5" }
+    },
+    {
+      "name": "5. Tags and Python",
+      "scope": [
+        "entity.name.tag",
+        "source.css entity.name.tag",
+        "source.css meta.selector entity.name.tag",
+        "entity.name.tag.css",
+        "support.function",
+        "support.class",
+        "support.type",
+        "support.constant",
+        "variable.language",
+        "variable.other.object.builtin",
+        "support.function.builtin.python",
+        "support.type.python"
+      ],
+      "settings": { "foreground": "#22863a", "fontStyle": "" }
+    }
+  ],
+  "semanticHighlighting": true,
+  "semanticTokenColors": {
+    "function.defaultLibrary": "#22863a",
+    "variable.defaultLibrary": "#22863a",
+    "class.defaultLibrary": "#22863a",
+    "type.defaultLibrary": "#22863a",
+    "property.defaultLibrary": "#22863a",
+    "builtinConstant": "#22863a",
+    "magicFunction": "#22863a",
+    "function.builtin": "#22863a",
+    "number": "#b07d00",
+    "boolean": "#b07d00",
+    "tag": "#22863a"
+  }
+}
